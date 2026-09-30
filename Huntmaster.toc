@@ -1,0 +1,45 @@
+## Interface: 16001, 11508
+## Title: |cFFAAD372Huntmaster|r
+## Author: Yurri Studio (based on Tamed by moody)
+## Version: 1.0.0
+## Notes: Your hunter companion toolkit for WoW Forever. Pet Codex, and more to come.
+## SavedVariables: __HUNTMASTER_DB__
+## IconTexture: Interface\AddOns\Huntmaster\Textures\logo
+
+# Libraries
+libs\LibStub.lua
+libs\CallbackHandler-1.0.lua
+libs\AceAddon-3.0.lua
+libs\AceConsole-3.0.lua
+libs\AceDB-3.0.lua
+libs\AceGUI-3.0\AceGUI-3.0.xml
+libs\HereBeDragons-2.0.lua
+libs\HereBeDragons-Pins-2.0.lua
+libs\LibDataBroker-1.1.lua
+libs\LibDBIcon-1.0.lua
+
+# Data
+Data\TameableAbilities.lua
+Data\TameableNPCs.lua
+
+# Core
+Core\init.lua
+Core\locale.lua
+Core\colors.lua
+Core\data-init.lua
+Core\db.lua
+Core\commands.lua
+Core\tooltips.lua
+
+# UI Shell
+UI\theme.lua
+UI\widgets.lua
+UI\pin-helper.lua
+UI\minimap-icon.lua
+UI\main.lua
+
+# Modules
+Modules\PetCodex\pet-codex.lua
+Modules\PetFamilies\pet-families.lua
+Modules\DeadZone\deadzone.lua
+Modules\Settings\settings.lua
